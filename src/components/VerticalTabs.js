@@ -99,17 +99,25 @@ const VerticalTabs = () => {
                         <SearchBar /><br /><br />
                         <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={1} style={{ marginTop: '36px', width: '50%' }}>
-                        Item Two
+                    <TabPanel value={value} index={1} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
+                        <SearchBar /><br /><br />
+                        <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={2} style={{ marginTop: '36px', width: '50%' }}>
-                        Item Three
+                    <TabPanel value={value} index={2} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
+                        <SearchBar /><br /><br />
+                        <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={3} style={{ marginTop: '36px', width: '50%' }}>
-                        Item Four
+                    <TabPanel value={value} index={3} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
+                        <SearchBar /><br /><br />
+                        <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={4} style={{ marginTop: '36px', width: '50%' }}>
-                        Item Five
+                    <TabPanel value={value} index={4} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
+                        <SearchBar /><br /><br />
+                        <DragDrop />
                     </TabPanel>
 
                     <div className="common-tab" style={{ marginTop: '90px' }}>
