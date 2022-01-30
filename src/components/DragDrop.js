@@ -24,7 +24,7 @@ const DragDrop = () => {
         <>
             <div className="Pictures">
                 {PictureList.map((picture) => {
-                    return <Picture url={picture.url} id={picture.id} />;
+                    return <Picture url={picture.url} key={picture.id} id={picture.id} />;
                 })}
             </div>
 

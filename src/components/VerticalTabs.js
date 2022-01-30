@@ -71,7 +71,9 @@ const VerticalTabs = () => {
     const addImageToBoard = (id) => {
         const pictureList = PictureList.filter((picture) => id === picture.id);
         setBoard((board) => [pictureList[0]]);
+
     };
+
 
     return (
         <>
@@ -94,27 +96,28 @@ const VerticalTabs = () => {
                         <Tab icon={<NetworkCheckIcon />} {...a11yProps(4)} style={{ color: 'white' }} />
 
                     </Tabs>
-                    <TabPanel value={value} index={0} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                    <TabPanel value={value} index={0} style={{ marginTop: '44px', width: '50%', background: "#353131" }}>
+                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
+
+                        <SearchBar /><br /><br />
+                        <DragDrop />
+                    </TabPanel>
+                    <TabPanel value={value} index={1} style={{ marginTop: '44px', width: '50%', background: "#353131" }}>
                         <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
                         <SearchBar /><br /><br />
                         <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={1} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                    <TabPanel value={value} index={2} style={{ marginTop: '44px', width: '50%', background: "#353131" }}>
                         <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
                         <SearchBar /><br /><br />
                         <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={2} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                    <TabPanel value={value} index={3} style={{ marginTop: '44px', width: '50%', background: "#353131" }}>
                         <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
                         <SearchBar /><br /><br />
                         <DragDrop />
                     </TabPanel>
-                    <TabPanel value={value} index={3} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
-                        <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
-                        <SearchBar /><br /><br />
-                        <DragDrop />
-                    </TabPanel>
-                    <TabPanel value={value} index={4} style={{ marginTop: '36px', width: '50%', background: "#353131" }}>
+                    <TabPanel value={value} index={4} style={{ marginTop: '44px', width: '50%', background: "#353131" }}>
                         <h1 style={{ color: 'white' }}>Assets <small style={{ fontSize: "13px" }}>Library</small></h1>
                         <SearchBar /><br /><br />
                         <DragDrop />

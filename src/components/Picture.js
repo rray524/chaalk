@@ -9,6 +9,8 @@ function Picture({ id, url }) {
             isDragging: !!monitor.isDragging(),
         }),
     }));
+
+
     return (
         <img
             ref={drag}
